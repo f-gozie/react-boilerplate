@@ -1,10 +1,13 @@
-import './App.css';
-import CounterExample from './components/CounterExample';
+import HelloWorld from './components/HelloWorld';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
-        <CounterExample />
+        <Header />
+        <HelloWorld />
+        <Footer />
     </div>
   );
 }
